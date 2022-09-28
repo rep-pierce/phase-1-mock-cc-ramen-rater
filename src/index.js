@@ -35,7 +35,7 @@ function handleSubmit(e){
         restaurant: e.target.restaurant.value,
         image: e.target.image.value,
         rating: e.target.rating.value,
-        comment: e.target.number.value
+        comment: e.target['new-comment'].value
     }
     createNewRamen(newRamenItem)
 }
